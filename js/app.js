@@ -34,7 +34,7 @@ let tempDay = tempDate.getDay();
 
 // let futureDate = new Date(2024,1,5,7,46,0);  
 // this will HARDCODE getFullYear, getMonth, getDay, getHours, getMinutes, seconds 
-const futureDate = new Date(tempYear, tempMonth, tempDay + 30, 11, 30, 0);  // Setting dynamically, and we are adding 10 days to the current time
+const futureDate = new Date(tempYear, tempMonth, tempDay + 60, 11, 30, 0);  // Setting dynamically, and we are adding 10 days to the current time
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
